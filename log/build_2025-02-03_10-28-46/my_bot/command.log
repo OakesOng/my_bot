@@ -1,0 +1,6 @@
+Invoking command in '/home/shengda/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/shengda/dev_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shengda/dev_ws/install/my_bot
+Invoked command in '/home/shengda/dev_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/shengda/dev_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shengda/dev_ws/install/my_bot
+Invoking command in '/home/shengda/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/shengda/dev_ws/build/my_bot -- -j8 -l8
+Invoked command in '/home/shengda/dev_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/shengda/dev_ws/build/my_bot -- -j8 -l8
+Invoking command in '/home/shengda/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/shengda/dev_ws/build/my_bot
+Invoked command in '/home/shengda/dev_ws/build/my_bot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/shengda/dev_ws/build/my_bot

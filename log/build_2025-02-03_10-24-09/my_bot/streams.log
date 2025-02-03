@@ -1,0 +1,39 @@
+[0.023s] Invoking command in '/home/shengda/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/shengda/dev_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shengda/dev_ws/install/my_bot
+[0.300s] -- The C compiler identification is GNU 9.4.0
+[0.489s] -- The CXX compiler identification is GNU 9.4.0
+[0.506s] -- Check for working C compiler: /usr/bin/cc
+[0.621s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.623s] -- Detecting C compiler ABI info
+[0.733s] -- Detecting C compiler ABI info - done
+[0.749s] -- Detecting C compile features
+[0.750s] -- Detecting C compile features - done
+[0.756s] -- Check for working CXX compiler: /usr/bin/c++
+[0.875s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.876s] -- Detecting CXX compiler ABI info
+[1.008s] -- Detecting CXX compiler ABI info - done
+[1.022s] -- Detecting CXX compile features
+[1.023s] -- Detecting CXX compile features - done
+[1.037s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.080s] -- Found PythonInterp: /home/shengda/anaconda3/bin/python3 (found suitable version "3.12.7", minimum required is "3") 
+[1.080s] -- Using PYTHON_EXECUTABLE: /home/shengda/anaconda3/bin/python3
+[1.410s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.477s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.513s] Traceback (most recent call last):
+[1.513s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 21, in <module>
+[1.513s]     from catkin_pkg.package import parse_package_string
+[1.513s] ModuleNotFoundError: No module named 'catkin_pkg'
+[1.518s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[1.518s]   execute_process(/home/shengda/anaconda3/bin/python3
+[1.518s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.518s]   /home/shengda/dev_ws/src/my_bot/package.xml
+[1.519s]   /home/shengda/dev_ws/build/my_bot/ament_cmake_core/package.cmake) returned
+[1.519s]   error code 1
+[1.519s] Call Stack (most recent call first):
+[1.519s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.519s]   /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[1.519s]   CMakeLists.txt:32 (ament_lint_auto_find_test_dependencies)
+[1.519s] 
+[1.519s] 
+[1.520s] -- Configuring incomplete, errors occurred!
+[1.520s] See also "/home/shengda/dev_ws/build/my_bot/CMakeFiles/CMakeOutput.log".
+[1.526s] Invoked command in '/home/shengda/dev_ws/build/my_bot' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/shengda/dev_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shengda/dev_ws/install/my_bot

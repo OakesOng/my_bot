@@ -1,0 +1,24 @@
+[0.020s] Invoking command in '/home/shengda/dev_ws/build/my_bot': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/shengda/dev_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shengda/dev_ws/install/my_bot
+[0.041s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.068s] -- Using PYTHON_EXECUTABLE: /home/shengda/anaconda3/bin/python3
+[0.338s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.354s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.403s] Traceback (most recent call last):
+[0.404s]   File "/opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 21, in <module>
+[0.404s]     from catkin_pkg.package import parse_package_string
+[0.404s] ModuleNotFoundError: No module named 'catkin_pkg'
+[0.411s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:94 (message):
+[0.411s]   execute_process(/home/shengda/anaconda3/bin/python3
+[0.411s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[0.412s]   /home/shengda/dev_ws/src/my_bot/package.xml
+[0.412s]   /home/shengda/dev_ws/build/my_bot/ament_cmake_core/package.cmake) returned
+[0.412s]   error code 1
+[0.412s] Call Stack (most recent call first):
+[0.412s]   /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[0.413s]   /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[0.413s]   CMakeLists.txt:32 (ament_lint_auto_find_test_dependencies)
+[0.413s] 
+[0.413s] 
+[0.413s] -- Configuring incomplete, errors occurred!
+[0.413s] See also "/home/shengda/dev_ws/build/my_bot/CMakeFiles/CMakeOutput.log".
+[0.418s] Invoked command in '/home/shengda/dev_ws/build/my_bot' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake /home/shengda/dev_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/shengda/dev_ws/install/my_bot
